@@ -17,7 +17,7 @@ function setUpGrid(gridSize) {
         square.style.width = squareSizeW + "px";
         square.style.height = squareSizeH + "px";
 
-        square.addEventListener('mouseover', () => 
+        square.addEventListener('mouseover', () => {
             square.style.backgroundColor = 'black';
         });
     }
