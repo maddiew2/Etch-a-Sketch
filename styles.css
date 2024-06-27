@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box; 
-    /* outline: 2px solid blue;          */
+    /* outline: 2px solid blue;           */
   }
 
   body {
@@ -44,9 +44,8 @@ h4 {
 
 .grid {
     height: 410px;
-    width: 650px;
+    width: 550px;
     background-color: white;
-    border-radius: 5px;
     box-shadow: 0px 0px 5px 2px rgba(79,69,69,1);
 }
 
@@ -55,7 +54,7 @@ h4 {
     flex-direction: row;
     justify-content: space-between;
     height: 110px;
-    width: 860px;
+    width: 800px;
     align-items: flex-end;
     margin-top: 20px;
 
@@ -74,16 +73,21 @@ h4 {
     margin-top: -65px;
 }
 
-.button {
-    background-color: #f3f3f3;
-    border: none;
-    color: rgb(0, 0, 0);
-    padding: 11px 28px;
-    text-align: center;
-    text-decoration: none;
-  /* display: inline-block; */
-    font-size: 17px;
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    border: 1px solid #ddd;
+    background-color: white
+}
+
+#shake-button {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: solid 1px black;
     border-radius: 5px;
-    box-shadow: 0px 0px 1px 1px rgb(42, 38, 38);
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    cursor: pointer;
 }
